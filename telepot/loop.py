@@ -112,7 +112,8 @@ def _extract_message(update):
                                    'my_chat_member',
                                    'chat_join_request',
                                    'chat_boost',
-                                   'removed_chat_boost'])
+                                   'removed_chat_boost',
+                                   'poll'])
     return key, update[key]
 
 
